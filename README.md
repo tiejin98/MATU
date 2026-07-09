@@ -325,10 +325,10 @@ The included `.pkl` files reproduce the following quick-start metrics:
 | --- | --- | --- | --- | --- | --- |
 | MATH + Camel + Qwen2.5 | MATU | Paper Table 1 | 0.7089 | 0.9064 | Paper reference. |
 | MATH + Camel + Qwen2.5 | MATU | Included quick-start artifact | 0.7205 | 0.9017 | `python quick_start/code/04_evaluate_reference_results.py --sample math-qwen` |
-| MATH + Camel + Qwen2.5 | SAUP-Multiple | Included quick-start baseline | 0.6097 | 0.8722 | `python quick_start/code/05_evaluate_baselines.py --sample math-qwen` |
+| MATH + Camel + Qwen2.5 | SAUP-Multiple | Included quick-start baseline | 0.6078 | 0.8722 | `python quick_start/code/05_evaluate_baselines.py --sample math-qwen` |
 | MMLU + AutoGen + Qwen2.5 | MATU | Paper Table 2 | 0.7315 | 0.8833 | Paper reference. |
 | MMLU + AutoGen + Qwen2.5 | MATU | Included quick-start artifact | 0.7315 | 0.8834 | `python quick_start/code/04_evaluate_reference_results.py --sample mmlu-autogen-qwen` |
-| MMLU + AutoGen + Qwen2.5 | SAUP-Multiple | Included quick-start baseline | 0.7417 | 0.8589 | `python quick_start/code/05_evaluate_baselines.py --sample mmlu-autogen-qwen` |
+| MMLU + AutoGen + Qwen2.5 | SAUP-Multiple | Included quick-start baseline | 0.7194 | 0.8589 | `python quick_start/code/05_evaluate_baselines.py --sample mmlu-autogen-qwen` |
 
 The MATH artifact was re-run for public release packaging, so it is close to
 but not bit-for-bit identical to the paper table. The MMLU AutoGen artifact is
